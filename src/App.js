@@ -11,15 +11,15 @@ function App() {
         <h4>React Blog</h4>
       </div>
       <div className="list">
-        <h4> { 글제목 } </h4>
+        <h4> { 글제목[0] } </h4>
       <p>2월 17일 발행</p>
       </div>
       <div className="list">  
-        <h4> { 글제목 } </h4>
+        <h4> { 글제목[1] } </h4>
       <p>2월 17일 발행</p>
       </div>
-        <div className="list">
-        <h4> { 글제목 } </h4>
+        <div className="list"> 
+        <h4> { 글제목[2] } </h4>
       <p>2월 17일 발행</p>
       </div>
     </div>
